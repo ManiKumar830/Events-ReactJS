@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    width: 50%;
+  }
+}
+.event-image {
+  width: 100%;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.event-image-border {
+  width: 100%;
+  flex-grow: 1;
+  cursor: pointer;
+  border: 2px solid #2dd4bf;
+  border-radius: 6px;
+}
+.image-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: start;
+}
+.location-container {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 14px;
+  text-align: start;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 20px;
+  }
+  .location-container {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.result-container {
+  width: 50%;
+  height: 100vh;
+}
+.yet-to-register {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.yet-to-register-image {
+  width: 80%;
+  width: 80%;
+}
+.yet-description {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 25px;
+}
+.buttonEl {
+  border: none;
+  background-color: #0967d2;
+  border-radius: 6px;
+  height: 50px;
+  width: 50%;
+  font-family: 'Roboto';
+  padding: 10px;
+  font-size: 17px;
+  color: #ffffff;
+}
+.description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.description {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+  font-size: 30px;
+}
+.registered-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.registered-image {
+  width: 100px;
+}
+.registered-text {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-weight: 600;
+  font-size: 30px;
+}
+.closed-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.closed-image {
+  width: 70%;
+}
+.registered-closed-text {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-weight: 600;
+  font-size: 29px;
+}
+.closed-description {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 23px;
+  margin-top: 0px;
+}
+@media screen and (max-width: 568px) {
+  .description {
+    font-size: 19px;
+  }
+
+  .buttonEl {
+    height: 50px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+  }
+  .yet-description {
+    font-size: 17px;
+  }
+  .registered-text {
+    font-size: 23px;
+  }
+  .registered-closed-text {
+    font-size: 20px;
+  }
+  .closed-description {
+    font-size: 17px;
+  }
+}
